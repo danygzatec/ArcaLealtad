@@ -1,0 +1,24 @@
+.siteLayout {
+      border-radius: 16px;
+}
+
+.backButton {
+background-color: #701E194D;
+}
+
+.saveButton {
+background-color: #9E292B;
+color: #FFDEDC;;
+}
+.editButton{
+
+}
+
+.addRule {
+background-color: black;
+color: white;
+}
+
+.content {
+border-radius: 16px !important
+}

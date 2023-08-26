@@ -1,0 +1,32 @@
+#root{
+    background-color:#e7e4e4 !important ;
+    min-height: 100vh;
+}
+
+.largelogo{
+    width: 100%;
+}
+
+
+.logout{
+    display: block;
+    color: #CD7B61;
+    cursor: pointer;
+    margin-top: 10em;
+    margin-left: 2em;
+    font-size: 35px;
+}
+
+.row{
+    display: flex;
+}
+
+.navLogo{
+    position: "absolute";
+    left: "0vw";
+    top: "0px";
+}
+
+/***
+style={{ color: "#CD7B61", cursor:'pointer', marginTop: '20em', marginLeft:'2em', fontSize:'35px'}}
+***/

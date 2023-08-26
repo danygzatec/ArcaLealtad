@@ -1,0 +1,112 @@
+.login-homepage {
+  background-color: #e7e4e4 !important;
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+.new-logo {
+  display: flex;
+  margin-left: 35%;
+  margin-right: auto;
+  max-width: 30%;
+  max-height: 30%;
+  margin-top: 20px;
+  
+
+  animation: logoanimation 3s ease-in;
+}
+
+.brown {
+  background-color: #701e19;
+  position: absolute;
+  border-radius: 70px 0px 0px 0px;
+  height: 750px;
+  width: 100%;
+  bottom: 0px;
+
+  animation: sampleanimation 3s ease-in;
+
+}
+
+.login-form{
+  margin-top: -29%;
+
+  animation: loginanimation 5s ease-in
+}
+
+@keyframes sampleanimation {
+  0% {
+    bottom: 0px;
+    height: 200px;
+    width: 100%;
+  }
+  25% {
+    bottom: 0px;
+    height: 300px;
+    width: 100%;
+  }
+  50% {
+    bottom: 0px;
+    height: 500px;
+    width: 100%;
+  }
+  75% {
+    bottom: 0px;
+    height: 600px;
+    width: 100%;
+  }
+  100% {
+    bottom: 0px;
+    height: 750px;
+    width: 100%;
+  }
+}
+
+@keyframes logoanimation {
+  0% {
+    max-width: 30%;
+    max-height: 30%;
+    margin-top: 20px;
+    margin-left: 40%;
+  }
+}
+
+
+.googleSignIn{
+  position: absolute;
+  left: 65%;
+  top: 55%;
+
+  animation: googleanimation 5s ease-in;
+}
+
+
+@keyframes googleanimation {
+  0% {
+    opacity: 0;
+  }
+  25%{
+      opacity: 0;
+  }
+  50% {
+      opacity: 0;
+  }
+  75%{
+      opacity: 0;
+  }
+  100% {
+    position: absolute;
+    opacity: 1;
+    left: 50%;
+    top: 40%;
+  }
+}
+
+@keyframes loginanimation {
+  0% {
+    opacity: 0;
+  }
+  100%{
+    margin-top: -29%
+  }
+}

@@ -1,0 +1,62 @@
+
+
+#brown-inicio-card {
+  background-color: #701e19;
+  position: relative;
+  border-radius: 70px 0px 0px 0px;
+  height: 770px;
+
+}
+
+.target {
+  position: absolute;
+  margin-top: 15em;
+  margin-left: 5em;
+  transform: translate(-315%, 0%);
+}
+
+.plus-button {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  margin-left: 20em;
+  bottom: 2em;
+  border-radius: 50px 50px 50px 50px;
+  background: #d81635;
+  box-shadow: 1px 3px 11.3924px 5px rgba(255, 255, 255, 0.22);
+  cursor: pointer;
+}
+
+.plus {
+  font-size: 60px;
+}
+
+.modal-buttom {
+  /*color: #8a8a8a; */
+  width: 80%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 6em;
+  border-color: #d81635;
+}
+
+.bolsa {
+  width: 50%;
+  height: 50%;
+  margin-left: -10em;
+}
+
+.bingo {
+  width: 40%;
+  height: 40%;
+  margin-left: -14em;
+}
+
+.mecanica {
+  width: 40%;
+  height: 40%;
+  margin-left: -14em;
+}

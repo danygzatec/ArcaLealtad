@@ -1,0 +1,307 @@
+aside.ant-layout-sider.ant-layout-sider-dark {
+  min-width: 800px !important;
+  background-color: white;
+  margin-top: 2em;
+}
+
+.new-rule-box {
+  width: 85%;
+  height: 75%;
+  background-color: red;
+  border-radius: 20px;
+  margin-left: 4.5em;
+  background-color: #f6f6f6;
+}
+
+:where(.css-dev-only-do-not-override-26rdvq).ant-layout.ant-layout-has-sider {
+  flex-direction: row;
+  background-color: white;
+}
+
+.text {
+  text-align: center !important;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+:where(.css-dev-only-do-not-override-26rdvq).ant-col {
+  position: relative;
+  max-width: 100%;
+  min-height: 1px;
+  font-size: 34px;
+}
+
+.add-rule {
+  text-align: center !important;
+  justify-content: center;
+  margin-top: 3em;
+  position: relative;
+  max-width: 100%;
+}
+
+:where(.css-dev-only-do-not-override-26rdvq).ant-btn {
+  font-size: 19px;
+  height: 39px;
+  padding: 4px 17px;
+  border-radius: 10px;
+}
+
+.nueva-regla-text {
+  position: relative;
+  top: 15px;
+  margin-left: 2em;
+  color: #6b1515;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.paragraph-text {
+  margin-top: -5px;
+  margin-left: 3.5em;
+  color: #787878;
+}
+
+.ver-catalogo-button {
+  top: -50%;
+  margin-left: 77em;
+}
+
+.title1 {
+  margin-left: 10em;
+  margin-top: 3em;
+}
+.paragraph1 {
+  width: 50%;
+  background-color: #d4bbba;
+  margin-left: 8em;
+  height: 5%;
+  color: white;
+  font-size: 30px;
+}
+
+.title2{
+    margin-left: 10em;
+    margin-top: 1em;
+}
+
+.input{
+    width: 50%;
+    margin-left: 17em;
+}
+
+@media (max-width: 1764px) {
+  .nueva-regla-text {
+    position: relative;
+    top: -50px;
+    margin-left: 3em;
+    color: #6b1515;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .paragraph-text {
+    margin-top: -75px;
+    margin-left: 5.3em;
+    color: #787878;
+  }
+  .ver-catalogo-button {
+    top: -90%;
+    margin-left: 77em;
+  }
+}
+
+@media (max-width: 1674px) {
+  .nueva-regla-text {
+    position: relative;
+    top: 10px;
+    margin-left: 3em;
+    color: #6b1515;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .paragraph-text {
+    margin-top: -15px;
+    margin-left: 5.3em;
+    color: #787878;
+  }
+  .ver-catalogo-button {
+    top: -50%;
+    margin-left: 65em;
+  }
+}
+
+@media (max-width: 1536px) {
+  .nueva-regla-text {
+    position: relative;
+    top: 20px;
+    margin-left: 3em;
+    color: #6b1515;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .paragraph-text {
+    margin-top: 25px;
+    margin-left: 5.3em;
+    color: #787878;
+  }
+  .ver-catalogo-button {
+    top: -55%;
+    margin-left: 55em;
+  }
+  .new-rule-box {
+    width: 75%;
+    height: 65%;
+    background-color: red;
+    border-radius: 20px;
+    margin-left: 8em;
+    background-color: #f6f6f6;
+  }
+  :where(.css-dev-only-do-not-override-26rdvq).ant-col {
+    position: relative;
+    max-width: 100%;
+    min-height: 1px;
+    font-size: 25px;
+  }
+  .title1 {
+    margin-left: 5em;
+    margin-top: 3em;
+  }
+  .paragraph1 {
+    width: 50%;
+    background-color: #d4bbba;
+    margin-left: 4em;
+    height: 5%;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .title2{
+      margin-left: 5em;
+      margin-top: 1em;
+  }
+  
+  .input{
+      width: 50%;
+      margin-left: 8.5em;
+  }
+}
+
+
+@media (max-width: 1346px) {
+    .nueva-regla-text {
+      position: relative;
+      top: 10px;
+      margin-left: 3em;
+      color: #6b1515;
+      font-size: 25px;
+      font-weight: 500;
+    }
+    .paragraph-text {
+      margin-top: 5px;
+      margin-left: 5.3em;
+      color: #787878;
+    }
+    .ver-catalogo-button {
+      top: -55% !important;
+      margin-left: 45em;
+    }
+    .new-rule-box {
+      width: 75%;
+      height: 65%;
+      background-color: red;
+      margin-top: 3em;
+      border-radius: 20px;
+      margin-left: 8em;
+      background-color: #f6f6f6;
+    }
+    :where(.css-dev-only-do-not-override-26rdvq).ant-col {
+      position: relative;
+      max-width: 100%;
+      min-height: 1px;
+      font-size: 25px;
+    }
+    .title1 {
+      margin-left: 5em;
+      margin-top: 3em;
+    }
+    .paragraph1 {
+      width: 80%;
+      background-color: #d4bbba;
+      margin-left: 4em;
+      height: 5%;
+      color: white;
+      font-size: 30px;
+    }
+    
+    .title2{
+        margin-left: 5em;
+        margin-top: 1em;
+    }
+    
+    .input{
+        width: 80%;
+        margin-left: 8.5em;
+    }
+  }
+
+  @media (max-width: 1156px) {
+    .nueva-regla-text {
+      position: relative;
+      top: 10px;
+      margin-left: 3em;
+      color: #6b1515;
+      font-size: 25px;
+      font-weight: 500;
+    }
+    .paragraph-text {
+      margin-top: 10px;
+      margin-left: 5.3em;
+      color: #787878;
+    }
+    .ver-catalogo-button {
+      top: -45% !important;
+      margin-left: 38em;
+    }
+    .new-rule-box {
+      width: 75%;
+      height: 65%;
+      background-color: red;
+      margin-top: 3em;
+      border-radius: 20px;
+      margin-left: 8em;
+      background-color: #f6f6f6;
+    }
+    :where(.css-dev-only-do-not-override-26rdvq).ant-col {
+      position: relative;
+      max-width: 100%;
+      min-height: 1px;
+      font-size: 25px;
+    }
+    .title1 {
+      margin-left: 5em;
+      margin-top: 3em;
+    }
+    .paragraph1 {
+      width: 80%;
+      background-color: #d4bbba;
+      margin-left: 4em;
+      height: 5%;
+      color: white;
+      font-size: 30px;
+    }
+    
+    .title2{
+        margin-left: 5em;
+        margin-top: 1em;
+    }
+    
+    .input{
+        width: 80%;
+        margin-left: 8.5em;
+    }
+
+    button,
+  span {
+    display: inline-flex;
+    align-items: center;
+  }
+  }
